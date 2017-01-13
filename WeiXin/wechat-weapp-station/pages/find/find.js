@@ -46,14 +46,12 @@ editorRecommendAlbums:res.data.editorRecommendAlbums,
 guess:res.data.guess,
 cityColumn:res.data.cityColumn,
 hotRecommends:res.data.hotRecommends,
-          loadingHidden:true,
         })
 
       },
       fail: function() {
         // fail
         that.setData({
-          loadingHidden:true,
         })
       },
       complete: function() {
